@@ -1,0 +1,83 @@
+body {
+	background: black;
+	color: red;
+	font-size: 20px;
+	font-family: Georgia, serif;
+	line-height: 1.2;
+}
+
+a {
+	color: red;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 800;
+	margin:0px;
+	margin-bottom:10px;
+}
+
+
+.banner {
+	width:60%;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+	margin-top:50px;
+	margin-bottom:50px;
+	border-radius: 20%
+}
+
+
+.intro {
+	text-align: center;
+	width:85%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+.poster {
+	float: left;
+	width: 250px;
+	height: 300px;
+	margin-right:10px;
+	margin-left: 20px;
+}
+
+
+.entry {	
+	margin-right: 20px;
+	margin-left:20px;
+}
+
+
+.ratings {
+	font-size: 16px;
+	font-weight: 900;
+	margin-right:5px;
+}
+
+
+.skulls {
+	margin-left:5px;
+	margin-right:5px
+	height: 15px;
+	width: 15px;
+}
+
+
+@media(max-width:600px) {
+	.poster{
+		height: 200px;
+		width: 175px;
+	}
+
+	.skulls{
+		height:12px;
+		width: 12px;
+		margin-left: 1px;
+		margin-right: 1px;
+	}
+}
