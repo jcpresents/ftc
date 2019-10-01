@@ -34,10 +34,8 @@ h1 {
 	font-size: 50px;
 	font-weight: 800;
 	color: black;
-	position: absolute;
 	top: 20px;
-	margin-left: 27%;
-	margin-right: 20%;
+	text-align: center;
 	text-shadow: -2px 0 #943335, 0 2px #943335, 2px 0 #943335, 	0 -2px #943335;
 	}
 
