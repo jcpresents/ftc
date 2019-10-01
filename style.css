@@ -31,12 +31,12 @@ h1 {
 
 
 .title {
-	font-size: 40px;
+	font-size: 50px;
 	font-weight: 800;
 	color: black;
 	position: absolute;
 	top: 20px;
-	margin-left:22%;
+	margin-left: 27%;
 	margin-right: 20%;
 	text-shadow: -2px 0 #943335, 0 2px #943335, 2px 0 #943335, 	0 -2px #943335;
 	}
