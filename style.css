@@ -23,19 +23,19 @@
 
 
 .portrait {
-	height:1000px;
-	width:1000px;
-	margin-top:50px;
+	display: block;
+	width:80%;
+	margin-left: auto;
+    	margin-right: auto;
+	margin-top:1px;
 	margin-bottom:50px;
-	border-radius: 1%
 }
 
 
 @media(max-width:700px) {
 
 .portrait {
-		width: 90%;
-		height:90%;
+		width: 95%;
 	}
 	
 }
