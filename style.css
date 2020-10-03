@@ -63,12 +63,37 @@ h1 {
 }
 
 
+.container {
+  position: relative;
+  width: 50%;
+  max-width: 250px;
+}
+
+
 .poster {
 	float: left;
 	width: 250px;
 	height: 300px;
 	margin-right:10px;
 	margin-left: 20px;
+}
+
+.overlay {
+  position: absolute;
+  top: 50;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  align: bottom;
+  height: 20%;
+  width: 100%;
+  opacity: 0;
+  transition: .3s ease;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.container:hover .overlay {
+  opacity: 1;
 }
 
 
@@ -90,6 +115,15 @@ h1 {
 	margin-right:4px
 	height: 15px;
 	width: 15px;
+}
+
+
+
+.icons {
+	margin-left:10px;
+	margin-right:10px;
+	height: 30px;
+	width: 30px;
 }
 
 
